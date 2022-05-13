@@ -1,0 +1,101 @@
+[
+  {
+    "line": 5,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-20T22:08:21.105Z",
+        "line": 15,
+        "name": "As a user, I want to Onboard Organization",
+        "description": "",
+        "id": "as-user-creating-a-end-to-end-(e2e)-tests-for-testing-apix-platform;as-a-user--i-want-to-onboard-organization",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9348332042,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user is on apix to login",
+            "match": {
+              "location": "APIX_Scenario_Step.user_is_on_apix_to_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 956059708,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user clicks login button",
+            "match": {
+              "location": "APIX_Scenario_Step.user_clicks_login_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3515503917,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "login via email",
+            "match": {
+              "location": "APIX_Scenario_Step.login_via_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9294351250,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user completing steps onboard org",
+            "match": {
+              "location": "APIX_Scenario_Step.user_completing_steps_onboard_org()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186016125,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "it navigated user to complete page",
+            "match": {
+              "location": "APIX_Scenario_Step.it_navigated_user_to_complete_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AllAPIXPlatform"
+          },
+          {
+            "name": "@OnboardOrgFI"
+          }
+        ]
+      }
+    ],
+    "name": "As User creating a end-to-end (e2e) tests for testing APIX platform",
+    "description": "",
+    "id": "as-user-creating-a-end-to-end-(e2e)-tests-for-testing-apix-platform",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/apixplatform.feature",
+    "tags": [
+      {
+        "name": "@AllAPIXPlatform",
+        "type": "Tag",
+        "location": {
+          "line": 4,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

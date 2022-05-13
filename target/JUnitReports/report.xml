@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="24.435069">
+    <testcase classname="As User creating a end-to-end (e2e) tests for testing APIX platform" name="As a user, I want to Onboard Organization" time="24.435069">
+        <system-out><![CDATA[Given user is on apix to login..............................................passed
+When user clicks login button...............................................passed
+And login via email.........................................................passed
+And user completing steps onboard org.......................................passed
+Then it navigated user to complete page.....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
